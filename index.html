@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World - Vue.js 2</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+    <!-- div onde a aplicação vue será montada -->
+    {{message}}
+</div>
+</body>
+
+<script type="text/javascript">
+    new Vue({
+        el: "#app",
+        data: {message: "Hello World!" }
+    });
+</script>
+</html>
